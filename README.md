@@ -1,4 +1,4 @@
-westJs
+lazyJs
 ======
 
-westJs is a simple module loader for javascript
+lazyJs is a simple modular loader for javascript&css.

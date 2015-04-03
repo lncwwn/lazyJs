@@ -1,5 +1,13 @@
-loader = (function() {
+/**
+ * lodaer of JavaScript module or CSS files.
+ * @author vicrtor li
+ * @date 2015/04/03
+ * released under terms of MIT license.
+ */
+;Loader = (function(document, undefined) {
     
+    'use strict';
+
     function _getHead() {
         var head = document.getElementsByTagName('head');
         if (head && head.length > 0) {
@@ -44,4 +52,4 @@ loader = (function() {
 
     };
 
-})();
+})(window.document);
